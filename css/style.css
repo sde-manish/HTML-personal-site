@@ -1,0 +1,8 @@
+
+body { background-color:powderblue; }
+hr {background-color:none; /* no need of background-color because it has no height */
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 6px;
+    height: 0px;
+    width: 4%;} /* by writing 30% percent value,the width always remain 30% of the screen size. we can also provide specific value for width like 100px or 200px. */
